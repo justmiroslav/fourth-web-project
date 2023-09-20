@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <title>responsive site</title>
+</head>
+<body>
+    <header>
+        <div class="welcome-title">
+            <img src="images/P.svg" alt="">
+            <h2>HeyPractice</h2>
+        </div>
+        <div class="buttons">
+            <div class="left-buttons">
+                <button>Home</button>
+                <button>FAQ</button>
+                <button>About us</button>
+                <button id="language">
+                    <div id="language-img"><img src="images/language-blue.svg" alt=""></div>
+                    <div><p>EN</p></div>
+                </button>
+            </div>
+            <div class="right-buttons">
+                <button id="right-button">Notify me</button>
+                <div id="menu"><img src="images/Menu.svg" alt=""></div>
+            </div>
+        </div>     
+    </header>
+    <main>
+        <div class="welcome-info">
+            <div class="welcome-text">
+                <h1>Hi! I am a <span style="color:#129AFE">responsive</span> site</h1>
+            </div>
+            <div class="link">
+                <p id="link-text">Please check out Mozilla dev tools on responsive design</p>
+                <p><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design" target="_blank">link</a></p>
+            </div>
+            <div class="input">
+                <input type="text" placeholder="Some text" name="search" onclick="showRecentSearch()">
+                <div id="search-tool">
+                    <img src="images/search-blue.svg" alt="" title="search tool">
+                </div>
+                <div id="search-button">
+                    <button>Search</button>
+                </div>
+            </div>
+            <div class="recent-search">
+                <div><p>What is responsive</p></div>
+                <div><p>What is adaptive</p></div>
+                <div><p>Flexboxes</p></div>
+                <div><p>Css grids</p></div>
+                <div id="more-search">
+                    <p>See 5+ more results</p>
+                    <img src="images/arrow-blue.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="rects">
+            <article>
+                <h2>Getting start</h2>
+                <p>Learn how to get started quickly with HeyPractice.</p>
+                <div class="go-to-article">
+                    <p>Go to article</p>
+                    <img src="images/arrow-blue.svg" alt="">
+                </div>
+            </article>
+            <article>
+                <h2>Using HeyPractice</h2>
+                <p>Discover how HeyPractice works.</p>
+                <div class="go-to-article">
+                    <p>Go to article</p>
+                    <img src="images/arrow-blue.svg" alt="">
+                </div>
+            </article>
+            <article>
+                <h2>Integrations and API</h2>
+                <p>Discover the power of HeyPractice's integration.</p>
+                <div class="go-to-article">
+                    <p>Go to article</p>
+                    <img src="images/arrow-blue.svg" alt="">
+                </div>
+            </article>
+            <article>
+                <h2>Account</h2>
+                <p>Manage your account settings.</p>
+                <div class="go-to-article">
+                    <p>Go to article</p>
+                    <img src="images/arrow-blue.svg" alt="">
+                </div>
+            </article>
+            <article>
+                <h2>Workspace</h2>
+                <p>Read more about setting up a team.</p>
+                <div class="go-to-article">
+                    <p>Go to article</p>
+                    <img src="images/arrow-blue.svg" alt="">
+                </div>
+            </article>
+            <article>
+                <h2>Course creating</h2>
+                <p>Everything about producing new courses and pitches.</p>
+                <div class="go-to-article">
+                    <p>Go to article</p>
+                    <img src="images/arrow-blue.svg" alt="">
+                </div>
+            </article>
+        </div>
+        <div class="faq">
+            <img src="images/Emoji.png" alt="">
+            <div class="faq-text">
+                <p>Frequently asked questions</p>
+            </div>
+            <div class="questions">
+                <div id="first-question">
+                    <p id="first-question-head">What is responsive design?</p>
+                    <p id="first-question-text">Eget varius congue pellentesque ut porta tempus morbi arcu. 
+                        Cursus odio facilisis feugiat nec in mi. Odio interdum nisi, sit ultrices amet, leo integer nibh non.</p>
+                    <div id="divider"></div>
+                </div>
+                <div>
+                    <p>Tellus, ante viverra facilisis pellentesque feugiat urna fusce molestie amet.</p>
+                    <div id="divider"></div>
+                </div>
+                <div>
+                    <p>Euismod nisl viverra eget pretium, tellus donec pretium tellus.</p>
+                    <div id="divider"></div>
+                </div>
+                <div>
+                    <p>Sit venenatis facilisis phasellus massa vel ullamcorper quisque mauris.</p>
+                    <div id="divider"></div>
+                </div>
+                <div>
+                    <p>Dictum dui porta turpis enim lacinia.</p>
+                    <div id="divider"></div>
+                </div>
+                <div>
+                    <p>Maecenas diam scelerisque quam nibh ullamcorper.</p>
+                    <div id="divider"></div>
+                </div>
+                <div>
+                    <p>Sit ut quam ac ipsum.</p>
+                    <div id="divider"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="images">
+            <img id="blue-img" src="images/left-and-blue-text-pigeon.png" alt="">
+            <img id="pigeon" src="images/pigeon-worker.png" alt="">
+            <img id="yellow-img" src="images/right-and-yellow-text-pigeon.png" alt="">
+        </div>
+        <div class="find-the-answer">
+            <div id="answer-text">
+                <p>Can't find the answer you're looking for?</p>
+            </div>
+            <div id="answer-button">
+                <button>Contact us</button>
+            </div>
+        </div>
+        <div class="helpers">
+            <div class="responsive-design">                
+                <img src="images/P.svg" alt="">
+                <div id="responsive-text"><p>Responsive design is very cool.</p></div>
+                <div class="footer-language">
+                    <img src="images/language-grey.svg" alt="" width="24px" style="height: auto;">
+                    <p>English</p>
+                </div>
+                <div class="left-corner">
+                    <div id="hey-practice"><p>© 2022 HeyPractice</p></div>
+                    <div id="privacy"><p>Privacy Policy</p></div>
+                </div>
+            </div>
+            <div class="features">
+                <div id="feature">
+                    <h2>Features</h2>
+                </div>
+                <div id="feature-items">
+                    <div><p>Team & Single Training</p></div>
+                    <div><p>Expert Content</p></div>
+                    <div><p>TNext-level Al-Software</p></div>
+                    <div><p>Reports</p></div>
+                    <div><p>Attention</p></div>
+                </div>
+            </div>
+            <div class="pages">
+                <div id="page">
+                    <h2>Pages</h2>
+                </div>
+                <div id="pages-items">
+                    <div><p>Home</p></div>
+                    <div><p>About</p></div>
+                    <div><p>Contact</p></div>
+                </div>
+            </div>
+            <div class="up-to-date">
+                <div id="up-to">
+                    <h2>Keep up to date</h2>
+                </div>
+                <div id="up-to-items">
+                    <form class="footer-input">
+                        <input type="email" placeholder="Enter your email" name="footer-search">
+                        <button type="button" id="footer-search-button">Notify me</button>
+                    </form>
+                    <div id="footer-images">
+                        <img src="images/arrow-grey.svg" alt="" width="24px" style="height: auto;">
+                        <img src="images/arrow-grey.svg" alt="" width="24px" style="height: auto;">
+                        <img src="images/arrow-grey.svg" alt="" width="24px" style="height: auto;">
+                        <img src="images/arrow-grey.svg" alt="" width="24px" style="height: auto;">
+                    </div>
+                </div>
+            </div>             
+        </div>
+        <div class="helpers-2">
+            <div class="responsive-design-2">                
+                <img src="images/P.svg" alt="">
+                <div id="responsive-text-2"><p>Responsive design is very cool.</p></div>
+                <div class="footer-language-2">
+                    <img src="images/language-grey.svg" alt="" width="24px" style="height: auto;">
+                    <p>English</p>
+                </div>
+            </div>
+            <div class="up-to-date-2">
+                <div id="up-to-2">
+                    <h2>Keep up to date</h2>
+                </div>
+                <div id="up-to-items-2">
+                    <form class="footer-input-2">
+                        <input type="email" placeholder="Enter your email" name="footer-search-2">
+                        <button type="button" id="footer-search-button-2">Notify me</button>
+                    </form>
+                </div>
+            </div>
+            <div class="features-and-pages">
+                <div class="features-2">
+                    <div id="feature-2">
+                        <h2>Features</h2>
+                    </div>
+                    <div id="feature-items-2">
+                        <div><p>Team & Single Training</p></div>
+                        <div><p>Expert Content</p></div>
+                        <div><p>TNext-level Al-Software</p></div>
+                        <div><p>Reports</p></div>
+                        <div><p>Attention</p></div>
+                    </div>
+                </div>
+                <div class="pages-2">
+                    <div id="page-2">
+                        <h2>Pages</h2>
+                    </div>
+                    <div id="pages-items-2">
+                        <div><p>Home</p></div>
+                        <div><p>About</p></div>
+                        <div><p>Contact</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="socials">
+                <div><img src="images/Facebook.svg" alt=""></div>
+                <div><img src="images/LinkedIn.svg" alt=""></div>
+                <div><img src="images/YouTube.svg" alt=""></div>
+                <div><img src="images/Instagram.svg" alt=""></div>
+            </div> 
+        </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
